@@ -1,0 +1,5 @@
+test/com/TestNgTestBase.class
+test/com/SampleTestNgTest.class
+test/com/SuiteConfiguration.class
+test/com/pages/Page.class
+test/com/pages/HomePage.class
