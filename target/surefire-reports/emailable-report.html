@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Tests</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">20,316</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">20,323</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m0">initWebDriver</a></td><td rowspan="1">1692572200473</td><td rowspan="1">20286</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m1">initPageObjects</a></td><td rowspan="1">1692572220767</td><td rowspan="1">-1692572220767</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m2">testHomePageHasAHeader</a></td><td rowspan="1">1692572220768</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m0">initWebDriver</a></td><td rowspan="1">1692572479092</td><td rowspan="1">20293</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m1">initPageObjects</a></td><td rowspan="1">1692572499392</td><td rowspan="1">-1692572499392</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">test.com.SampleTestNgTest</td><td><a href="#m2">testHomePageHasAHeader</a></td><td rowspan="1">1692572499393</td><td rowspan="1">0</td></tr></tbody>
 </table>
 <h2>Test1</h2><h3 id="m0">test.com.SampleTestNgTest#initWebDriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">ru.stqa.selenium.factory.DriverCreationError: java.lang.reflect.InvocationTargetException
 	at ru.stqa.selenium.factory.ReflectionBasedInstanceCreator.callConstructor(ReflectionBasedInstanceCreator.java:58)
@@ -37,7 +37,7 @@ Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
 	... 47 more
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30702/status] to be available after 20004 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:5622/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
 	... 54 more
@@ -72,7 +72,7 @@ Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
 	... 47 more
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30702/status] to be available after 20004 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:5622/status] to be available after 20004 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
 	... 54 more
